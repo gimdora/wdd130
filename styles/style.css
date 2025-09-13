@@ -47,11 +47,3 @@ nav a {
 h1 {
     color: #333;
 }
-
-img {
-    width: 150px;
-    height: auto;
-    border: 2px solid #ccc;
-    padding: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
