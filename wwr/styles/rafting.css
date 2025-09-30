@@ -252,3 +252,103 @@ footer p {
   height: auto;
   border-radius: 8px;
 }
+
+
+
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover { background: var(--accent1-color); }
+
+.hero--home { position: relative; }
+.btn--hero {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.newsletter {
+  margin: 24px 16px;
+  text-align: center;
+}
+.newsletter-form {
+  max-width: 520px;
+  margin: 12px auto 0;
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+.newsletter-form .form-row { text-align: left; margin-top: 10px; }
+.newsletter-form label { display: block; font-weight: 700; margin-bottom: 4px; }
+.newsletter-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 280px;
+  gap: 20px;
+  margin: 24px 16px 40px;
+  align-items: stretch;
+}
+.home-card img { width: 100%; height: auto; border-radius: 8px; }
+.home-card h3 { margin-top: 8px; }
+.home-cta {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.trips-cta {
+  text-align: center;
+  margin: 24px 16px;
+}
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 16px;
+}
+.trip-card figure { text-align: center; }
+.trip-card img { width: 100%; max-width: 320px; border-radius: 8px; }
+.trip-card p { margin-top: 8px; }
+
+.trips-table { margin: 24px 16px 40px; }
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.trips-table th, .trips-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.trips-table thead th {
+  background: var(--accent1-color);
+  color: #fff;
+}
+.table-note { margin-top: 8px; font-size: 0.95rem; }
+
+@media (max-width: 900px) {
+  header, main, footer { width: 100%; }
+  .home-grid { grid-template-columns: 1fr; }
+  .trips-grid { grid-template-columns: 1fr; }
+}
