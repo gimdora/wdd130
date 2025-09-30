@@ -163,3 +163,92 @@ footer p {
   width: 30px;
   height: auto;
 }
+
+
+
+
+
+
+
+.company-info {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.company-info iframe {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 16px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
+}
+
+.employees {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.employee-gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.employee-gallery figure {
+  text-align: center;
+  flex: 1;
+}
+
+.employee-gallery img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
